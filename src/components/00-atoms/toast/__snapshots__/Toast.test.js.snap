@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom: Toast renders correctly 1`] = `
+<div
+  className="toast toast-success "
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="toast-progress"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+  <button
+    className="toast-close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    ×
+  </button>
+  <div
+    className="toast-message"
+  >
+    This is toast message.
+  </div>
+</div>
+`;
+
+exports[`Atom: ToastContainer renders correctly 1`] = `
+<div
+  aria-live="polite"
+  className="toast-container toast-top-right"
+  id="toast-container"
+  role="alert"
+>
+  <Toast
+    id="1"
+    key="1"
+    message="This is toast success message."
+    onEnd={[Function]}
+    time={5000}
+    type="success"
+  />
+  <Toast
+    id="2"
+    key="2"
+    message="This is toast warning message."
+    onEnd={[Function]}
+    time={5000}
+    type="warning"
+  />
+  <Toast
+    id="3"
+    key="3"
+    message="This is toast error message."
+    onEnd={[Function]}
+    time={5000}
+    type="error"
+  />
+</div>
+`;

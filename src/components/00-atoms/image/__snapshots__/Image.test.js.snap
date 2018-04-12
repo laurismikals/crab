@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom: Image renders correctly with minimal props 1`] = `
+<figure
+  className="
+          
+          image
+          
+          image--loading
+        "
+  style={Object {}}
+>
+  <LazyLoad
+    debounce={true}
+    elementType="div"
+    offset={0}
+    offsetBottom={0}
+    offsetHorizontal={0}
+    offsetLeft={0}
+    offsetRight={0}
+    offsetTop={0}
+    offsetVertical={900}
+    throttle={250}
+  >
+    <img
+      alt="Alt text"
+      onLoad={[Function]}
+      src="test.jpg"
+    />
+  </LazyLoad>
+  <span
+    className="image__loading"
+  />
+</figure>
+`;
+
+exports[`Atom: Image renders correctly with proportions provided 1`] = `
+<figure
+  className="
+          
+          image
+          image--aspect
+          image--loading
+        "
+  style={
+    Object {
+      "padding": "0 0 100% 0",
+    }
+  }
+>
+  <LazyLoad
+    debounce={true}
+    elementType="div"
+    offset={0}
+    offsetBottom={0}
+    offsetHorizontal={0}
+    offsetLeft={0}
+    offsetRight={0}
+    offsetTop={0}
+    offsetVertical={900}
+    throttle={250}
+  >
+    <img
+      alt="Alt text"
+      onLoad={[Function]}
+      src="test.jpg"
+    />
+  </LazyLoad>
+  <span
+    className="image__loading"
+  />
+</figure>
+`;

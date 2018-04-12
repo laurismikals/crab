@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisms: ImageGrid renders correctly 1`] = `
+<div
+  className="image-grid"
+  style={Object {}}
+>
+  <div
+    className="width-100 margin-bottom-30"
+  >
+    <div
+      className="row row--gutters-30"
+    />
+  </div>
+</div>
+`;
+
+exports[`Organisms: ImageGrid renders correctly when fetching 1`] = `
+<div
+  className="image-grid"
+  style={
+    Object {
+      "minHeight": 50,
+    }
+  }
+>
+  <LoadingSpinner />
+  <div
+    className="width-100 margin-bottom-30"
+  >
+    <div
+      className="row row--gutters-30"
+    />
+  </div>
+</div>
+`;
+
+exports[`Organisms: ImageGrid renders correctly with data 1`] = `
+<div
+  className="image-grid"
+  style={Object {}}
+>
+  <div
+    className="width-100 margin-bottom-30"
+  >
+    <div
+      className="row row--gutters-30"
+    >
+      <div
+        className="col-s1-24 col-s2-12 col-s4-8 col-s7-6 flex justify--center flex-align--center"
+        key="1"
+      >
+        <Image
+          alt=""
+          className="margin-bottom-30"
+          src="image.webp"
+          x={100}
+          y={100}
+        />
+      </div>
+      <div
+        className="col-s1-24 col-s2-12 col-s4-8 col-s7-6 flex justify--center flex-align--center"
+        key="2"
+      >
+        <Image
+          alt=""
+          className="margin-bottom-30"
+          src="image1.webp"
+          x={100}
+          y={100}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

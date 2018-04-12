@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atom: Button renders correctly 1`] = `
+<button
+  className="
+          btn
+          
+          btn--large
+          btn--default
+        "
+  type="button"
+>
+  <span
+    className="btn__flex-fix"
+  >
+    <span
+      className="btn__text"
+    >
+      Button text
+    </span>
+  </span>
+</button>
+`;

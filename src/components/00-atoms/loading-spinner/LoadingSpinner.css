@@ -1,0 +1,67 @@
+.loading {
+  overflow: hidden;
+  min-height: 50px;
+  min-width: 50px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.loading--small {
+  min-height: 20px;
+}
+.loading:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-color: #000000;
+  border-style: solid;
+  border-bottom-color: transparent;
+  border-width: 2px;
+  border-radius: 50%;
+  animation: loadingSpin 1s infinite linear;
+  z-index: 0;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.no-cssanimations .loading:after {
+  content: "...";
+  border: none;
+}
+.loading--small:after {
+  width: 20px;
+  height: 20px;
+  border-width: 1px;
+}
+.loading.loaded:after {
+  opacity: 0;
+}
+@keyframes loadingSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .loading {
+    min-height: 20px;
+  }
+  .loading:after {
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+  }
+  .loading.loaded:after {
+  }
+}

@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecules: Pagination renders correctly when current page is 1 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={true}
+      key="0"
+      onClick={[Function]}
+      page={1}
+    />
+    <PaginationItem
+      isActive={false}
+      key="1"
+      onClick={[Function]}
+      page={2}
+    />
+    <PaginationItem
+      isActive={false}
+      key="2"
+      onClick={[Function]}
+      page={3}
+    />
+    <PaginationItem
+      isActive={false}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={false}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <li
+      className="pagination__item"
+    >
+      <div
+        className="pagination__link"
+      >
+        ...
+      </div>
+    </li>
+    <PaginationItem
+      isActive={false}
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: Pagination renders correctly when current page is 2 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={false}
+      key="0"
+      onClick={[Function]}
+      page={1}
+    />
+    <PaginationItem
+      isActive={true}
+      key="1"
+      onClick={[Function]}
+      page={2}
+    />
+    <PaginationItem
+      isActive={false}
+      key="2"
+      onClick={[Function]}
+      page={3}
+    />
+    <PaginationItem
+      isActive={false}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={false}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <li
+      className="pagination__item"
+    >
+      <div
+        className="pagination__link"
+      >
+        ...
+      </div>
+    </li>
+    <PaginationItem
+      isActive={false}
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: Pagination renders correctly when current page is 3 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={false}
+      key="0"
+      onClick={[Function]}
+      page={1}
+    />
+    <PaginationItem
+      isActive={false}
+      key="1"
+      onClick={[Function]}
+      page={2}
+    />
+    <PaginationItem
+      isActive={true}
+      key="2"
+      onClick={[Function]}
+      page={3}
+    />
+    <PaginationItem
+      isActive={false}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={false}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <li
+      className="pagination__item"
+    >
+      <div
+        className="pagination__link"
+      >
+        ...
+      </div>
+    </li>
+    <PaginationItem
+      isActive={false}
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: Pagination renders correctly when current page is 4 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={false}
+      key="0"
+      onClick={[Function]}
+      page={1}
+    />
+    <PaginationItem
+      isActive={false}
+      key="1"
+      onClick={[Function]}
+      page={2}
+    />
+    <PaginationItem
+      isActive={false}
+      key="2"
+      onClick={[Function]}
+      page={3}
+    />
+    <PaginationItem
+      isActive={true}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={false}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <PaginationItem
+      isActive={false}
+      key="5"
+      onClick={[Function]}
+      page={6}
+    />
+    <PaginationItem
+      isActive={false}
+      key="6"
+      onClick={[Function]}
+      page={7}
+    />
+    <PaginationItem
+      isActive={false}
+      key="7"
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: Pagination renders correctly when current page is 5 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={false}
+      key="0"
+      onClick={[Function]}
+      page={1}
+    />
+    <PaginationItem
+      isActive={false}
+      key="1"
+      onClick={[Function]}
+      page={2}
+    />
+    <PaginationItem
+      isActive={false}
+      key="2"
+      onClick={[Function]}
+      page={3}
+    />
+    <PaginationItem
+      isActive={false}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={true}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <PaginationItem
+      isActive={false}
+      key="5"
+      onClick={[Function]}
+      page={6}
+    />
+    <PaginationItem
+      isActive={false}
+      key="6"
+      onClick={[Function]}
+      page={7}
+    />
+    <PaginationItem
+      isActive={false}
+      key="7"
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: Pagination renders correctly when current page is 6 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={false}
+      onClick={[Function]}
+      page={1}
+    />
+    <li
+      className="pagination__item"
+    >
+      <div
+        className="pagination__link"
+      >
+        ...
+      </div>
+    </li>
+    <PaginationItem
+      isActive={false}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={false}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <PaginationItem
+      isActive={true}
+      key="5"
+      onClick={[Function]}
+      page={6}
+    />
+    <PaginationItem
+      isActive={false}
+      key="6"
+      onClick={[Function]}
+      page={7}
+    />
+    <PaginationItem
+      isActive={false}
+      key="7"
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: Pagination renders correctly when current page is 7 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={false}
+      onClick={[Function]}
+      page={1}
+    />
+    <li
+      className="pagination__item"
+    >
+      <div
+        className="pagination__link"
+      >
+        ...
+      </div>
+    </li>
+    <PaginationItem
+      isActive={false}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={false}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <PaginationItem
+      isActive={false}
+      key="5"
+      onClick={[Function]}
+      page={6}
+    />
+    <PaginationItem
+      isActive={true}
+      key="6"
+      onClick={[Function]}
+      page={7}
+    />
+    <PaginationItem
+      isActive={false}
+      key="7"
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: Pagination renders correctly when current page is 8 1`] = `
+<nav
+  className="pagination "
+>
+  <ul
+    className="pagination__items"
+  >
+    <PaginationItem
+      isActive={false}
+      onClick={[Function]}
+      page={1}
+    />
+    <li
+      className="pagination__item"
+    >
+      <div
+        className="pagination__link"
+      >
+        ...
+      </div>
+    </li>
+    <PaginationItem
+      isActive={false}
+      key="3"
+      onClick={[Function]}
+      page={4}
+    />
+    <PaginationItem
+      isActive={false}
+      key="4"
+      onClick={[Function]}
+      page={5}
+    />
+    <PaginationItem
+      isActive={false}
+      key="5"
+      onClick={[Function]}
+      page={6}
+    />
+    <PaginationItem
+      isActive={false}
+      key="6"
+      onClick={[Function]}
+      page={7}
+    />
+    <PaginationItem
+      isActive={true}
+      key="7"
+      onClick={[Function]}
+      page={8}
+    />
+  </ul>
+</nav>
+`;
+
+exports[`Molecules: PaginationItem renders correctly 1`] = `
+<li
+  className="pagination__item"
+  key="1"
+>
+  <a
+    className="pagination__link "
+    href=""
+    onClick={[Function]}
+    tabIndex="1"
+  >
+    1
+  </a>
+</li>
+`;

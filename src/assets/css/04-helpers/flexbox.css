@@ -1,0 +1,60 @@
+/*This file contains helper classes that can be used for different purposes like constructing simple layouts with flexbox helper classes or*/
+/*overriding components styling. These can be used whenever building a separate component feels like an overkill*/
+@supports(flex-wrap: wrap){
+  /*Fix for UC Browser. It doesn't support flex-wrap: wrap, so no flexbox for UC :(.*/
+  .flex {
+    display: flex;
+  }
+}
+.flexboxtweener .flex{
+  /*Adding flexbox for IE11 and IE10 since they don't support @supports syntax.*/
+  display: flex;
+}
+.wrap--nowrap {
+  flex-wrap: nowrap;
+}
+.wrap--wrap {
+  flex-wrap: wrap;
+}
+.wrap--wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.flex--1 {
+  flex: 1 1 auto;
+}
+.order--1 {
+  order: 1;
+}
+.direction--column {
+  flex-direction: column;
+}
+.direction--column-reverse {
+  flex-direction: column-reverse;
+}
+.direction--row {
+  flex-direction: row;
+}
+.direction--row-reverse {
+  flex-direction: row-reverse;
+}
+.justify--start {
+  justify-content: flex-start;
+}
+.justify--end {
+  justify-content: flex-end;
+}
+.justify--center {
+  justify-content: center;
+}
+.justify--space-between {
+  justify-content: space-between;
+}
+.justify--space-around {
+  justify-content: space-around;
+}
+.flex-align--end {
+  align-items: flex-end;
+}
+.flex-align--center {
+  align-items: center;
+}
